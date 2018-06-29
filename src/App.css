@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.Todo-App{
+  margin: 0 20px;
+      padding: 10px;
+}
+.search-form{
+  width: 50%;
+    margin: 0 auto;
+}
+.search-songs{
+  padding: 2px 5px;
+  border:none;
+  border-bottom: 1px solid #aaa;
+  width: 100%;
+  box-shadow: none;
+}
+.search-songs:focus{
+  box-shadow: none;
+}
+.song-list{
+  margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+}
+.description{
+  display: grid;
+    align-self: center;
+    margin: 0 10px;
+}
+.list-unstyled{
+  list-style-type: none;
+}
+.d-flex{
+  display: flex;
+}
+.img-thumbnail{
+  width: 60px;
+  height: 60px;
+border-radius: 50%;
+}
+.text-center{
+  text-align: center;margin: 0 20px;
+    padding: 10px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
