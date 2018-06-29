@@ -27,7 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="">
-        <h2 className="text-center">My redux app</h2>
+        <h2 className="text-center">My app</h2>
         <div className="Todo-App">
         <div className="search-form">
         <input type="text" placeholder="Search for your favorite songs" className="search-songs" onKeyPress={this.onChange.bind(this)}/>
